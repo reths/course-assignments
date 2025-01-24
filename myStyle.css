@@ -1,0 +1,31 @@
+.ex1
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .ex2
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+
+table,td {padding: 0px; margin: 0px; cellspacing: 0; cellpadding:0; 
+ border-collapse:collapse; border-spacing: 0px;  border:none; 
+}
+img { display:block;   }
+
+#infobox {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#diceResultDiv {
+    display: inline-block;
+}
+
+#diceImage{
+    width: 100px;
+    height: 100px
+}

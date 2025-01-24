@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<script src="game.js"></script>
+<script src="initBoard.js"></script>
+
+</head>
+<body onload=initBoard()>
+
+<table  id="mainTable">
+</table>
+<br>
+<button id="newGameButton" onclick="newGame()">New Game!</button>
+<button id="diceButton" onclick="rollDice()">Roll dice</button>
+<button id="allInButton" onclick="allIn()"disabled>ALL IN?</button>
+<br><br>
+<textarea id="infobox" disabled rows="7" cols="27">New Game!</textarea>
+
+<div id="diceResultDiv">
+    <img id="diceImage" src="" alt="Dice result" style="display: none;">
+</div>
+
+</body>
+
+
+</html>
+
+
